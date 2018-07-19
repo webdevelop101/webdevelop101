@@ -39,6 +39,6 @@ img {
 .sent {
   margin: 0;
   padding: 20px 0;    
-  color: black;
+  color: red;
   text-shadow: 3px 3px 1px red;
 }
