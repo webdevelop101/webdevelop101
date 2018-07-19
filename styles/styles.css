@@ -11,7 +11,7 @@ p {
   font-size: 16px;    
   line-height: 2;
   letter-spacing: 1px;
-  color: black;
+  color: red;
   test-shadow: 3px 3px 1px pink;
 }
 html {
@@ -36,9 +36,4 @@ img {
     max-width:100%; 
     max-height:100%;
 }
-.sent {
-  margin: 0;
-  padding: 20px 0;    
-  color: red;
-  text-shadow: 3px 3px 1px red;
-}
+
