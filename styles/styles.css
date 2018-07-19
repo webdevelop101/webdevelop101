@@ -7,10 +7,12 @@ h1 {
   text-align: center;
 }
 
-p, li {
+p {
   font-size: 16px;    
   line-height: 2;
   letter-spacing: 1px;
+  color: balck;
+  test-shadow: 3px 3px 1px pink;
 }
 html {
   background-color: black;
