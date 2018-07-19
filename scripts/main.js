@@ -2,7 +2,7 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function () {
     var mySrc = myImage.getAttribute('src');
-    if (mySrc === 'images/1.png') {
+    if (!mySrc === 'ayanfe.png') {
      myImage.setAttribute('src','images/2.png');
     } else {
       myImage.setAttribute ('src','images/1.png');
@@ -11,9 +11,9 @@ myImage.onclick = function () {
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 function setUserName() {
-  var myName = prompt('Who the fuck you are?');
+  var myName = prompt('Type in Ayanfe');
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'Welcome, ' + myName;
+  myHeading.textContent = 'I believe in You, ' + myName;
 }
 if(!localStorage.getItem('name')) {
   setUserName();
